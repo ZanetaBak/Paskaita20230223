@@ -64,14 +64,7 @@ public class Main {
                     arrTest4[i] = arrTest4[j];
                     arrTest4[j] = temp;
                 }
-                if (divI == 0) {
-                    arrTest4[i] = arrTest4[arrTest4.length - 1];// masyvo elementai be liekanos keliami i masyvo pabaiga
-                }
-                if (divJ == 0) {
-                    arrTest4[j] = arrTest4[arrTest4.length - 1];
-                }
-
-            }
+                      }
 
         }
 
@@ -109,9 +102,32 @@ public class Main {
         //=========================== S-8 =====================
         System.out.println("=========== S8 uzduotis=============");
 
+        // Sugeneruokite masyvą iš trijų elementų, kurie yra atsitiktiniai skaičiai nuo 1 iki 33.
+        // Jeigu tarp trijų paskutinių elementų yra nors vienas ne pirminis skaičius, prie masyvo pridėkite
+        // dar vieną elementą- atsitiktinį skaičių nuo 1 iki 33. Vėl patikrinkite pradinę sąlygą ir
+        // jeigu reikia pridėkite dar vieną elementą. Kartokite, kol sąlyga nereikalaus pridėti elemento.
+
+
+        int[] arrTest8 = rndArr(3,1,33);// sugeneravau masyva
+
+
+
+
 
         //=========================== S-9 =====================
         System.out.println("=========== S9 uzduotis=============");
+
+        // Sugeneruokite masyvą iš 10 elementų, kurie yra masyvai iš 10 elementų, kurie yra atsitiktiniai skaičiai
+        // nuo 1 iki 100. Jeigu tokio didelio masyvo (ne atskirai mažesnių) pirminių skaičių vidurkis mažesnis už 70,
+        // suraskite masyve mažiausią skaičių (nebūtinai pirminį) ir prie jo pridėkite 3.
+        // Vėl paskaičiuokite masyvo pirminių skaičių vidurkį ir jeigu mažesnis nei 70 viską kartokite.
+
+
+        //int [][]
+        //int[] arrTest9 = rndArr(3,1,33);// sugeneravau masyva
+
+
+
 
 
         // End of code
